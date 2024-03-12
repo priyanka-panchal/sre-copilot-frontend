@@ -1,0 +1,20 @@
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.main-container{
+  width: 50px;
+}
+.top-icon{
+top: 20px;
+right: 20px;
+position: absolute;
+}
+.bottom-icon{
+bottom: 40px;
+right: 20px;
+position: absolute;
+}

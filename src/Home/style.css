@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.toggle-container {
+  position: relative;
+  width: 50px;
+  background-color: white;
+}
+
+.side-componet {
+  width: 0.1px;
+  overflow: hidden;
+  transition: width 0.5s ease; /* Add transition for width change */
+}
+
+.side-componet.visible {
+  width: 350px; /* Adjust this width according to your needs */
+}
+
+.header-chat {
+  width: 100%;
+}
